@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="TestHello-20200930170906" tests="3" time="0.013">
+	<testcase classname="TestHello" name="test_hello_name" time="0.001"/>
+	<testcase classname="TestHello" name="test_hello" time="0.012">
+		<error message="b'Hello testlab!\n' != b'Hello World!\n'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "test.py", line 14, in test_hello
+    self.assertEqual(rv.data, b'Hello World!\n')
+AssertionError: b'Hello testlab!\n' != b'Hello World!\n'
+]]>		</error>
+	</testcase>
+	<testcase classname="TestHello" name="test_hello_hello" time="0.001">
+		<error message="b'Hello testlab!\n' != b'Hello World!\n'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "test.py", line 19, in test_hello_hello
+    self.assertEqual(rv.data, b'Hello World!\n')
+AssertionError: b'Hello testlab!\n' != b'Hello World!\n'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
